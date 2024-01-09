@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  SCHEME: Gymando
+  SCHEME: Gymondo
   TEST_DEVICE: platform=iOS Simulator,name=iPhone 14,OS=16.2
 
 jobs:
