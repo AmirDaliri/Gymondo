@@ -11,7 +11,7 @@ import SwiftUI
 
 class ExercisesViewController: UIViewController, Loading {
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     var spinner: UIView?
 
     private var viewModel: ExercisesViewModel

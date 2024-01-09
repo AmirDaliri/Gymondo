@@ -9,9 +9,9 @@ import UIKit
 
 class ExerciseTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var containerView: UIView!
-    @IBOutlet weak var exerciseImageView: UIImageView!
-    @IBOutlet weak var exerciseNameLabel: UILabel!
+    @IBOutlet private weak var containerView: UIView!
+    @IBOutlet private weak var exerciseImageView: UIImageView!
+    @IBOutlet private weak var exerciseNameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

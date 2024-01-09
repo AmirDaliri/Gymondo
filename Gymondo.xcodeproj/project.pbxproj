@@ -240,11 +240,11 @@
 		8B6CF5E72B4D675F00718074 /* Network Layer */ = {
 			isa = PBXGroup;
 			children = (
-				8B6CF5E82B4D675F00718074 /* NetworkServiceProtocol.swift */,
-				8B6CF5E92B4D675F00718074 /* NetworkManager.swift */,
+				8B6CF5EC2B4D675F00718074 /* Endpoint.swift */,
 				8B6CF5EA2B4D675F00718074 /* Router.swift */,
 				8B6CF5EB2B4D675F00718074 /* NetworkError.swift */,
-				8B6CF5EC2B4D675F00718074 /* Endpoint.swift */,
+				8B6CF5E82B4D675F00718074 /* NetworkServiceProtocol.swift */,
+				8B6CF5E92B4D675F00718074 /* NetworkManager.swift */,
 			);
 			path = "Network Layer";
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 		8B6CF6172B4D68F500718074 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				8B6CF6182B4D68F500718074 /* Variation */,
 				8B6CF61C2B4D68F500718074 /* Exercises */,
 				8B6CF62B2B4D68F500718074 /* Exercise Detail */,
+				8B6CF6182B4D68F500718074 /* Variation */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";

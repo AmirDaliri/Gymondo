@@ -15,10 +15,10 @@ protocol NetworkServiceProtocol {
     // - Returns: A publisher that emits an Exercises object (containing multiple Exercise instances) or a NetworkError. The use of AnyPublisher allows for flexibility in the underlying implementation, making the protocol adaptable to different networking strategies.
     func fetchExercises() -> AnyPublisher<Exercises, NetworkError>
 
-//    // Function to fetch details of a specific exercise identified by its ID.
-//    // - Parameter id: The unique identifier of the exercise to fetch.
-//    // - Returns: A publisher that emits a single Exercise object or a NetworkError. This method is crucial for retrieving detailed information about a specific exercise, such as its description, images, and variations.
-//    func fetchExercise(with id: Int) -> AnyPublisher<Exercise, NetworkError>
+    // Function to fetch details of a specific exercise identified by its ID.
+    // - Parameter id: The unique identifier of the exercise to fetch.
+    // - Returns: A publisher that emits a single Exercise object or a NetworkError. This method is crucial for retrieving detailed information about a specific exercise, such as its description, images, and variations.
+    /*func fetchExercise(with id: Int) -> AnyPublisher<Exercise, NetworkError>*/
     
     // This method fetches all exercise variations based on their IDs, with an optional delay between each fetch.
     // - Parameters:
