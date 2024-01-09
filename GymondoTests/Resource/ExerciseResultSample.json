@@ -1,0 +1,101 @@
+{
+    "id": 31,
+    "name": "Addominali",
+    "aliases": [],
+    "uuid": "sample uuid",
+    "exercise_base_id": 167,
+    "description": "<ol><li>Sdraiati a pancia in su sul pavimento con le ginocchia piegate.</li><li>Solleva il busto verso il bacino, a 30° / 40° dal suolo. Le mani possono essere dietro o accanto al collo o incrociate sul petto.</li><li>Ripeti</li></ol>",
+    "created": "sample created",
+    "category": {
+        "id": 10,
+        "name": "Abs"
+    },
+    "muscles": [
+        {
+            "id": 6,
+            "name": "Rectus abdominis",
+            "name_en": "Abs",
+            "is_front": true,
+            "image_url_main": "/static/images/muscles/main/muscle-6.svg",
+            "image_url_secondary": "/static/images/muscles/secondary/muscle-6.svg"
+        }
+    ],
+    "muscles_secondary": [
+        {
+            "id": 3,
+            "name": "Serratus anterior",
+            "name_en": "",
+            "is_front": true,
+            "image_url_main": "/static/images/muscles/main/muscle-3.svg",
+            "image_url_secondary": "/static/images/muscles/secondary/muscle-3.svg"
+        }
+    ],
+    "equipment": [
+        {
+            "id": 4,
+            "name": "Gym mat"
+        }
+    ],
+    "language": {
+        "id": 13,
+        "short_name": "it",
+        "full_name": "Italian"
+    },
+    "license": {
+        "id": 1,
+        "full_name": " Creative Commons Attribution Share Alike 3",
+        "short_name": "CC-BY-SA 3",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+    },
+    "license_author": "wger.de",
+    "images": [
+        {
+            "id": 3,
+            "uuid": "ef0b00e2-3323-4e7f-88fe-d71ef34b3384",
+            "exercise_base": 167,
+            "exercise_base_uuid": "b186f1f8-4957-44dc-bf30-d0b00064ce6f",
+            "image": "https://wger.de/media/exercise-images/91/Crunches-1.png",
+            "is_main": true,
+            "style": "1",
+            "license": 1,
+            "license_title": "",
+            "license_object_url": "",
+            "license_author": "",
+            "license_author_url": "",
+            "license_derivative_source_url": "",
+            "author_history": []
+        },
+        {
+            "id": 4,
+            "uuid": "0fdc1eea-07d1-4d01-8d89-6c39673dcbed",
+            "exercise_base": 167,
+            "exercise_base_uuid": "b186f1f8-4957-44dc-bf30-d0b00064ce6f",
+            "image": "https://wger.de/media/exercise-images/91/Crunches-2.png",
+            "is_main": false,
+            "style": "1",
+            "license": 1,
+            "license_title": "",
+            "license_object_url": "",
+            "license_author": "Everkinetic",
+            "license_author_url": "",
+            "license_derivative_source_url": "",
+            "author_history": []
+        }
+    ],
+    "videos": [],
+    "comments": [],
+    "variations": [
+        1314,
+        1243,
+        1186,
+        2060
+    ],
+    "author_history": [
+        "wger.de",
+        "J. Lavoie (imported from Feeel)",
+        "Marco Galli (imported from Feeel)",
+        "mondstern (imported from Feeel)",
+        "Gianluca Vespignani (imported from Feeel)",
+        "albanobattistella (imported from Feeel)"
+    ]
+}

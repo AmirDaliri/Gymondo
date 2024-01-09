@@ -19,9 +19,19 @@
 		8B6CF5902B4BF01100718074 /* HtmlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF58F2B4BF01100718074 /* HtmlHelper.swift */; };
 		8B6CF5A22B4C4AED00718074 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6CF5A12B4C4AED00718074 /* Kingfisher */; };
 		8B6CF5A92B4C89DB00718074 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5A82B4C89DB00718074 /* UITableViewCell+Extensions.swift */; };
-		8B6CF5AD2B4D418C00718074 /* GymandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5AC2B4D418C00718074 /* GymandoTests.swift */; };
 		8B6CF5B02B4D41ED00718074 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5AE2B4D41ED00718074 /* ExercisesViewController.swift */; };
 		8B6CF5B12B4D41ED00718074 /* ExercisesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CF5AF2B4D41ED00718074 /* ExercisesViewController.xib */; };
+		8B6CF5DE2B4D675400718074 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5D32B4D675400718074 /* NetworkManagerTests.swift */; };
+		8B6CF5E22B4D675400718074 /* TestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5D82B4D675400718074 /* TestUtilities.swift */; };
+		8B6CF5E32B4D675400718074 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5D92B4D675400718074 /* MockNetworkService.swift */; };
+		8B6CF5E42B4D675400718074 /* ExerciseResultSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CF5DB2B4D675400718074 /* ExerciseResultSample.json */; };
+		8B6CF5E52B4D675400718074 /* ExerciseErrorResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CF5DC2B4D675400718074 /* ExerciseErrorResponse.json */; };
+		8B6CF5E62B4D675400718074 /* ExerciseSuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CF5DD2B4D675400718074 /* ExerciseSuccessResponse.json */; };
+		8B6CF5ED2B4D675F00718074 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5E82B4D675F00718074 /* NetworkServiceProtocol.swift */; };
+		8B6CF5EE2B4D675F00718074 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5E92B4D675F00718074 /* NetworkManager.swift */; };
+		8B6CF5EF2B4D675F00718074 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5EA2B4D675F00718074 /* Router.swift */; };
+		8B6CF5F02B4D675F00718074 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5EB2B4D675F00718074 /* NetworkError.swift */; };
+		8B6CF5F12B4D675F00718074 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF5EC2B4D675F00718074 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +67,19 @@
 		8B6CF58D2B4BE89800718074 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		8B6CF58F2B4BF01100718074 /* HtmlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlHelper.swift; sourceTree = "<group>"; };
 		8B6CF5A82B4C89DB00718074 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
-		8B6CF5AC2B4D418C00718074 /* GymandoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymandoTests.swift; sourceTree = "<group>"; };
 		8B6CF5AE2B4D41ED00718074 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
 		8B6CF5AF2B4D41ED00718074 /* ExercisesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExercisesViewController.xib; sourceTree = "<group>"; };
+		8B6CF5D32B4D675400718074 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		8B6CF5D82B4D675400718074 /* TestUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtilities.swift; sourceTree = "<group>"; };
+		8B6CF5D92B4D675400718074 /* MockNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		8B6CF5DB2B4D675400718074 /* ExerciseResultSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExerciseResultSample.json; sourceTree = "<group>"; };
+		8B6CF5DC2B4D675400718074 /* ExerciseErrorResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExerciseErrorResponse.json; sourceTree = "<group>"; };
+		8B6CF5DD2B4D675400718074 /* ExerciseSuccessResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExerciseSuccessResponse.json; sourceTree = "<group>"; };
+		8B6CF5E82B4D675F00718074 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		8B6CF5E92B4D675F00718074 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8B6CF5EA2B4D675F00718074 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8B6CF5EB2B4D675F00718074 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		8B6CF5EC2B4D675F00718074 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +133,7 @@
 			children = (
 				8B6CF5172B49556600718074 /* AppDelegate.swift */,
 				8B6CF5192B49556600718074 /* SceneDelegate.swift */,
+				8B6CF5E72B4D675F00718074 /* Network Layer */,
 				8B6CF5AE2B4D41ED00718074 /* ExercisesViewController.swift */,
 				8B6CF5AF2B4D41ED00718074 /* ExercisesViewController.xib */,
 				8B6CF5872B4BE5C500718074 /* Misc */,
@@ -126,7 +147,9 @@
 		8B6CF52D2B49556800718074 /* GymondoTests */ = {
 			isa = PBXGroup;
 			children = (
-				8B6CF5AC2B4D418C00718074 /* GymandoTests.swift */,
+				8B6CF5D72B4D675400718074 /* Helpers */,
+				8B6CF5D22B4D675400718074 /* Tests */,
+				8B6CF5DA2B4D675400718074 /* Resource */,
 			);
 			path = GymondoTests;
 			sourceTree = "<group>";
@@ -150,6 +173,45 @@
 				8B6CF58D2B4BE89800718074 /* Loading.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		8B6CF5D22B4D675400718074 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B6CF5D32B4D675400718074 /* NetworkManagerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8B6CF5D72B4D675400718074 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B6CF5D82B4D675400718074 /* TestUtilities.swift */,
+				8B6CF5D92B4D675400718074 /* MockNetworkService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B6CF5DA2B4D675400718074 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8B6CF5DB2B4D675400718074 /* ExerciseResultSample.json */,
+				8B6CF5DC2B4D675400718074 /* ExerciseErrorResponse.json */,
+				8B6CF5DD2B4D675400718074 /* ExerciseSuccessResponse.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B6CF5E72B4D675F00718074 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				8B6CF5E82B4D675F00718074 /* NetworkServiceProtocol.swift */,
+				8B6CF5E92B4D675F00718074 /* NetworkManager.swift */,
+				8B6CF5EA2B4D675F00718074 /* Router.swift */,
+				8B6CF5EB2B4D675F00718074 /* NetworkError.swift */,
+				8B6CF5EC2B4D675F00718074 /* Endpoint.swift */,
+			);
+			path = "Network Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +335,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6CF5E62B4D675400718074 /* ExerciseSuccessResponse.json in Resources */,
+				8B6CF5E42B4D675400718074 /* ExerciseResultSample.json in Resources */,
+				8B6CF5E52B4D675400718074 /* ExerciseErrorResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +355,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6CF5EF2B4D675F00718074 /* Router.swift in Sources */,
 				8B6CF58E2B4BE89800718074 /* Loading.swift in Sources */,
 				8B6CF5182B49556600718074 /* AppDelegate.swift in Sources */,
+				8B6CF5F12B4D675F00718074 /* Endpoint.swift in Sources */,
+				8B6CF5EE2B4D675F00718074 /* NetworkManager.swift in Sources */,
 				8B6CF5B02B4D41ED00718074 /* ExercisesViewController.swift in Sources */,
 				8B6CF5902B4BF01100718074 /* HtmlHelper.swift in Sources */,
 				8B6CF5742B4BDD6100718074 /* UITableViewController+Extensions.swift in Sources */,
+				8B6CF5ED2B4D675F00718074 /* NetworkServiceProtocol.swift in Sources */,
 				8B6CF5762B4BDE8E00718074 /* UIImageView+Extensions.swift in Sources */,
+				8B6CF5F02B4D675F00718074 /* NetworkError.swift in Sources */,
 				8B6CF5A92B4C89DB00718074 /* UITableViewCell+Extensions.swift in Sources */,
 				8B6CF51A2B49556600718074 /* SceneDelegate.swift in Sources */,
 			);
@@ -305,7 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B6CF5AD2B4D418C00718074 /* GymandoTests.swift in Sources */,
+				8B6CF5E22B4D675400718074 /* TestUtilities.swift in Sources */,
+				8B6CF5E32B4D675400718074 /* MockNetworkService.swift in Sources */,
+				8B6CF5DE2B4D675400718074 /* NetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
