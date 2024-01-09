@@ -8,7 +8,7 @@ on:
 
 env:
   SCHEME: Gymondo
-  TEST_DEVICE: platform=iOS Simulator,name=iPhone 14,OS=16.2
+  TEST_DEVICE: platform=iOS Simulator,name=iPhone 14,OS=15.0
 
 jobs:
   build:
