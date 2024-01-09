@@ -47,7 +47,7 @@
 		8B6CF63F2B4D695C00718074 /* DecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF63C2B4D695C00718074 /* DecodingTests.swift */; };
 		8B6CF6402B4D695C00718074 /* ExerciseDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF63D2B4D695C00718074 /* ExerciseDetailViewModelTests.swift */; };
 		8B6CF6412B4D695C00718074 /* ExercisesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF63E2B4D695C00718074 /* ExercisesViewModelTests.swift */; };
-		8B6CF6432B4D6B0800718074 /* GymandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF6422B4D6B0800718074 /* GymandoUITests.swift */; };
+		8B6CF6432B4D6B0800718074 /* GymandoMainListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CF6422B4D6B0800718074 /* GymandoMainListUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,7 +111,7 @@
 		8B6CF63C2B4D695C00718074 /* DecodingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodingTests.swift; sourceTree = "<group>"; };
 		8B6CF63D2B4D695C00718074 /* ExerciseDetailViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewModelTests.swift; sourceTree = "<group>"; };
 		8B6CF63E2B4D695C00718074 /* ExercisesViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewModelTests.swift; sourceTree = "<group>"; };
-		8B6CF6422B4D6B0800718074 /* GymandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GymandoUITests.swift; path = ../../../.Trash/Gymando/GymondoUITests/GymandoUITests.swift; sourceTree = "<group>"; };
+		8B6CF6422B4D6B0800718074 /* GymandoMainListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GymandoMainListUITests.swift; path = ../../../.Trash/Gymando/GymondoUITests/GymandoMainListUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +190,7 @@
 			children = (
 				8B6CF5382B49556800718074 /* GymondoUITests.swift */,
 				8B6CF53A2B49556800718074 /* GymondoUITestsLaunchTests.swift */,
-				8B6CF6422B4D6B0800718074 /* GymandoUITests.swift */,
+				8B6CF6422B4D6B0800718074 /* GymandoMainListUITests.swift */,
 			);
 			path = GymondoUITests;
 			sourceTree = "<group>";
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B6CF6432B4D6B0800718074 /* GymandoUITests.swift in Sources */,
+				8B6CF6432B4D6B0800718074 /* GymandoMainListUITests.swift in Sources */,
 				8B6CF53B2B49556800718074 /* GymondoUITestsLaunchTests.swift in Sources */,
 				8B6CF5392B49556800718074 /* GymondoUITests.swift in Sources */,
 			);
