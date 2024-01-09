@@ -1,41 +1,18 @@
 name: Unit Tests
 
 on:
-  # Trigger the workflow on pull request to main branch
-  pull_request:
-    branches: [main]
-
-  # Trigger the workflow on push to main branch or manually
   push:
-    branches: [main]
-
-  workflow_dispatch:
+    branches: "main"
+  pull_request:
+    branches: "main"
 
 jobs:
-  run_tests:
-    name: Run tests and Get Code Coverage
+  build:
     runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          path: your-package-directory  # Specify the path to your Swift package directory
 
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run: swift build
       - name: Run tests
         run: swift test
-
-      - name: Test coverage
-        uses: maxep/spm-lcov-action@0.3.1
-        with:
-          output-file: ./coverage/lcov.info
-
-      - name: Upload coverage to Codecov
-        if: ${{ github.event_name == 'push' }}
-        uses: codecov/codecov-action@v1
-        with:
-          file: ./coverage/lcov.info
-          token: ${{ secrets.CODECOV_TOKEN }}
-          flags: unittests
-          env_vars: SWIFT
-          name: codecov-${{ github.head_ref }}-${{ steps.date.outputs.date }}
-          fail_ci_if_error: true
