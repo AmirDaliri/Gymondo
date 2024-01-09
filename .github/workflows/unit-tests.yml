@@ -23,7 +23,6 @@ jobs:
 
       - name: Run tests
         run: swift test --enable-code-coverage
-        working-directory: your-package-directory  # Set the working directory to your Swift package directory
 
       - name: Test coverage
         uses: maxep/spm-lcov-action@0.3.1
