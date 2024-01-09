@@ -15,6 +15,13 @@ Gymondo is a comprehensive exercise application designed for iOS, allowing users
 ## Architecture
 The app showcases a robust architecture, integrating UIKit and SwiftUI to demonstrate best practices in iOS development. It adheres to SOLID principles for a maintainable and scalable codebase.
 
+## Design and User Interface
+To provide a clear visual direction for the Gymondo app, a comprehensive UI/UX design was created using Figma. This design file, available in the repository, illustrates the app’s layout, color scheme, and overall user experience.
+
+- **Figma Design File**: Explore the detailed visual blueprint for the Gymondo app’s user interface. The design file offers insights into the aesthetic choices and user flow, guiding the development process.
+
+  Access the Figma design file here: [Gymondo Figma Design](https://github.com/AmirDaliri/Gymondo/blob/main/Gymondo.fig).
+
 ## Project Structure
 - **Network Layer**: Manages network communications and error handling.
 - **Scenes**: Features main browsing functionality, detailed views, and view models.
