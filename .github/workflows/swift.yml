@@ -1,0 +1,37 @@
+# This workflow will build a Swift project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
+name: Unit Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Xcode
+      uses: actions/setup-xcode@v2
+      with:
+        xcode-version: '13.0'  #Xcode version as needed
+
+    - name: Install dependencies
+      run: |
+        xcodebuild -resolvePackageDependencies
+        xcodebuild -list
+
+    - name: Build and test
+      run: |
+        xcodebuild test -scheme Gymondo -destination "platform=iOS Simulator,OS=15.0,name=iPhone 13"
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: Build/Logs/Test/*.xcresult
