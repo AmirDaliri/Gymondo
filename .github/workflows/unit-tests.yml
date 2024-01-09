@@ -1,18 +1,36 @@
-name: Unit Tests
+name: Build and Test
 
 on:
   push:
-    branches: "main"
+    branches: [ main ]
   pull_request:
-    branches: "main"
+    branches: [ main ]
+
+env:
+  SCHEME: Gymando
+  TEST_DEVICE: platform=iOS Simulator,name=iPhone 14,OS=16.2
 
 jobs:
   build:
     runs-on: macos-latest
+    timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Build
-        run: swift build
-      - name: Run tests
-        run: swift test
+    - name: Checkout project repo
+      uses: actions/checkout@v4
+
+    - name: Build
+      shell: bash
+      run: xcodebuild -scheme '${{ env.SCHEME }}' -sdk iphonesimulator -destination '${{ env.TEST_DEVICE }}' build
+
+  test:
+    runs-on: macos-latest
+    timeout-minutes: 30
+
+    steps:
+    - name: Checkout project repo
+      uses: actions/checkout@v4
+
+    - name: Test
+      shell: bash
+      run: xcodebuild -scheme '${{ env.SCHEME }}' -sdk iphonesimulator -destination '${{ env.TEST_DEVICE }}' test
